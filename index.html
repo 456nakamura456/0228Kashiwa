@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEG KASHIWA SUMMIT 2026 生成AIワークショップ</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            background-color: #f8fafc;
+            /* Slate-50: A very light cool gray */
+        }
+
+        /* Glassmorphism utility */
+        .glass {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+        }
+
+        .text-shadow-sm {
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            blue: '#e0f2fe', /* Sky-100 */
+                            pink: '#fce7f3', /* Pink-100 */
+                            accent: '#38bdf8', /* Sky-400 */
+                            dark: '#334155', /* Slate-700 */
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="text-slate-700 antialiased">
+
+    <!-- Hero Section -->
+    <header class="relative w-full h-[60vh] flex items-center justify-center overflow-hidden">
+        <!-- Background Image Container -->
+        <div class="absolute inset-0 z-0">
+            <img src="./assets/hero_bg.png" alt="Generative AI Background"
+                class="w-full h-full object-cover opacity-90">
+            <div class="absolute inset-0 bg-gradient-to-b from-transparent via-white/30 to-white"></div>
+        </div>
+
+        <div
+            class="relative z-10 text-center px-4 max-w-4xl mx-auto glass rounded-3xl p-8 shadow-xl border border-white/50 m-4">
+            <h1
+                class="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-sky-500 to-pink-500 mb-4 drop-shadow-sm">
+                LEG KASHIWA SUMMIT 2026<br>
+                <span class="text-2xl md:text-4xl block mt-2 text-slate-600">生成AIワークショップ</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-600 font-medium">
+                未来の教育を、もっと身近に。<br class="hidden md:inline">
+                先生のための生成AI活用ポータル
+            </p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-6xl mx-auto px-4 py-12 space-y-20">
+
+        <!-- Resources Section -->
+        <section id="resources" class="space-y-8">
+            <div class="text-center">
+                <h2
+                    class="text-3xl font-bold text-slate-700 inline-block border-b-4 border-sky-300 pb-1 px-4 rounded-full">
+                    Resources</h2>
+                <p class="mt-4 text-slate-500">ワークショップ当日の資料とマニュアル</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <!-- Slide Material -->
+                <!-- Slide Material -->
+                <a href="https://drive.google.com/file/d/1eFikuILwmw2T4F8IwaP24gfEeKFb7DvN/view?usp=drive_link"
+                    target="_blank"
+                    class="group relative block p-8 bg-white rounded-3xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-slate-100 overflow-hidden">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-br from-blue-50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+                    </div>
+                    <div class="relative z-10 flex flex-col items-center">
+                        <div
+                            class="w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center mb-4 text-blue-500 group-hover:scale-110 transition-transform">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-8 h-8">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-700 mb-2">当日のスライド資料</h3>
+                        <p class="text-sm text-slate-500 text-center">ワークショップで使用したプレゼンテーション資料（PDF）</p>
+                        <span
+                            class="mt-4 px-4 py-2 bg-blue-500 text-white rounded-full text-sm font-bold shadow-md opacity-90 group-hover:opacity-100 transition-all">View
+                            PDF</span>
+                    </div>
+                </a>
+
+                <!-- Manual -->
+                <a href="https://drive.google.com/file/d/1eA43od8FlmGA83C-V5yYUN8ZK-Oa6BqN/view?usp=drive_link"
+                    target="_blank"
+                    class="group relative block p-8 bg-white rounded-3xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-slate-100 overflow-hidden">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-br from-orange-50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+                    </div>
+                    <div class="relative z-10 flex flex-col items-center">
+                        <div
+                            class="w-16 h-16 bg-orange-100 rounded-2xl flex items-center justify-center mb-4 text-orange-500 group-hover:scale-110 transition-transform">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-8 h-8">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-700 mb-2">HTMLアプリ共有マニュアル</h3>
+                        <p class="text-sm text-slate-500 text-center">作成したアプリを生徒と共有する方法の手順書</p>
+                        <span
+                            class="mt-4 px-4 py-2 bg-orange-400 text-white rounded-full text-sm font-bold shadow-md opacity-90 group-hover:opacity-100 transition-all">View
+                            PDF</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Gemini Prompts Section -->
+        <section id="prompts" class="space-y-8">
+            <div class="text-center">
+                <h2
+                    class="text-3xl font-bold text-slate-700 inline-block border-b-4 border-pink-300 pb-1 px-4 rounded-full">
+                    Gemini Prompts</h2>
+                <p class="mt-4 text-slate-500">授業準備を効率化する魔法のプロンプト集</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+                <!-- Gem Generator -->
+                <a href="https://gemini.google.com/gem/1_jKHlZvUNtewY7GzB2Do3D4CEkwPt3Qm?usp=sharing" target="_blank"
+                    class="group flex items-center p-6 bg-gradient-to-r from-pink-50 to-purple-50 rounded-2xl shadow-md hover:shadow-lg transition-all border border-pink-100 hover:border-pink-300">
+                    <div
+                        class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-pink-400 to-purple-500 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-sm">
+                        💎
+                    </div>
+                    <div class="ml-4 flex-grow">
+                        <h3 class="text-lg font-bold text-slate-700 group-hover:text-pink-600 transition-colors">
+                            Gem用プロンプト作成Gem</h3>
+                        <p class="text-sm text-slate-500">カスタムGeminiを作るための専用ボット</p>
+                    </div>
+                    <div class="ml-2 text-pink-300 group-hover:text-pink-500 transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                        </svg>
+                    </div>
+                </a>
+
+                <!-- NotebookLM Generator -->
+                <a href="https://gemini.google.com/gem/1LQj5LnyhwiYJoS9jTBndsOhJS7WGJQ4v?usp=sharing" target="_blank"
+                    class="group flex items-center p-6 bg-gradient-to-r from-blue-50 to-cyan-50 rounded-2xl shadow-md hover:shadow-lg transition-all border border-blue-100 hover:border-blue-300">
+                    <div
+                        class="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-blue-400 to-cyan-500 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-sm">
+                        📓
+                    </div>
+                    <div class="ml-4 flex-grow">
+                        <h3 class="text-lg font-bold text-slate-700 group-hover:text-blue-600 transition-colors">
+                            NotebookLM用プロンプト作成Gem</h3>
+                        <p class="text-sm text-slate-500">NotebookLMへの指示を最適化するボット</p>
+                    </div>
+                    <div class="ml-2 text-blue-300 group-hover:text-blue-500 transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                        </svg>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="space-y-8">
+            <div class="text-center">
+                <h2
+                    class="text-3xl font-bold text-slate-700 inline-block border-b-4 border-yellow-200 pb-1 px-4 rounded-full">
+                    Gallery</h2>
+                <p class="mt-4 text-slate-500">ワークショップの思い出と成果物</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+                <!-- Photo 1 -->
+                <div class="aspect-video bg-gray-100 rounded-2xl overflow-hidden shadow-md relative group">
+                    <img src="./assets/gallery_photo_1.png" alt="Workshop Photo 1" class="w-full h-full object-cover">
+                    <a href="https://drive.google.com/file/d/1qDOiLBsDqlESKfxfvvVAIMiYaQl7LyXd/view?usp=drive_link"
+                        target="_blank"
+                        class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300">
+                        <p
+                            class="text-white font-bold text-lg border border-white px-4 py-2 rounded-full hover:bg-white hover:text-black transition-colors">
+                            View Photo 1</p>
+                    </a>
+                </div>
+
+                <!-- Photo 2 -->
+                <div class="aspect-video bg-gray-100 rounded-2xl overflow-hidden shadow-md relative group">
+                    <img src="./assets/gallery_photo_2.png" alt="Workshop Photo 2" class="w-full h-full object-cover">
+                    <a href="https://drive.google.com/file/d/16rtU-N8YbKx7T6IRI5U23rqdmlAvZ-lT/view?usp=drive_link"
+                        target="_blank"
+                        class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300">
+                        <p
+                            class="text-white font-bold text-lg border border-white px-4 py-2 rounded-full hover:bg-white hover:text-black transition-colors">
+                            View Photo 2</p>
+                    </a>
+                </div>
+
+                <!-- Created App Site -->
+                <a href="https://sites.google.com/view/kashiwa0228/%E3%83%9B%E3%83%BC%E3%83%A0" target="_blank"
+                    class="aspect-video bg-emerald-50 rounded-2xl overflow-hidden shadow-md border-2 border-dashed border-emerald-300 flex flex-col items-center justify-center p-4 hover:bg-emerald-100 transition-colors cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-12 h-12 text-emerald-500 mb-2">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418" />
+                    </svg>
+                    <span class="text-emerald-700 font-bold">作成アプリサイト</span>
+                    <span class="text-xs text-emerald-600">Google Sites</span>
+                </a>
+
+                <!-- Link to Slide -->
+                <a href="https://docs.google.com/presentation/d/1IFq9_22B7_jMklMMAxyvkqwvY26BXE9dd7Z7EowzbMU/edit?usp=drive_link"
+                    target="_blank"
+                    class="aspect-video bg-yellow-50 rounded-2xl overflow-hidden shadow-md border-2 border-dashed border-yellow-300 flex flex-col items-center justify-center p-4 hover:bg-yellow-100 transition-colors cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-12 h-12 text-yellow-500 mb-2">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M16.5 3.75V16.5L12 14.25 7.5 16.5V3.75m9 0H18A2.25 2.25 0 0 1 20.25 6v12A2.25 2.25 0 0 1 18 20.25H6A2.25 2.25 0 0 1 3.75 18V6A2.25 2.25 0 0 1 6 3.75h1.5m9 0h-9" />
+                    </svg>
+                    <span class="text-yellow-700 font-bold">振り返りスライド</span>
+                    <span class="text-xs text-yellow-600">Google Slides</span>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-100 py-8 text-center border-t border-slate-200">
+        <p class="text-slate-500 font-medium">© 2026 LEG KASHIWA SUMMIT</p>
+    </footer>
+
+</body>
+
+</html>
